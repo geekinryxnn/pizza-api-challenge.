@@ -1,4 +1,4 @@
-# server/models/restaurant_pizza.py
+
 from flask_sqlalchemy import SQLAlchemy
 from server.app import db
 from sqlalchemy.orm import validates

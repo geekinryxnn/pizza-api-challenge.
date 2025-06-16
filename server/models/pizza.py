@@ -1,4 +1,4 @@
-# server/models/pizza.py
+
 from flask_sqlalchemy import SQLAlchemy
 from server.app import db
 
@@ -9,7 +9,7 @@ class Pizza(db.Model):
     name = db.Column(db.String, nullable=False)
     ingredients = db.Column(db.String, nullable=False)
 
-    # Relationships
+
     restaurant_pizzas = db.relationship('RestaurantPizza', backref='pizza')
 
     def to_dict(self):

@@ -1,4 +1,4 @@
-# server/controllers/restaurant_pizza_controller.py
+
 from flask import jsonify, request
 from server.app import app, db
 from server.models.restaurant_pizza import RestaurantPizza
