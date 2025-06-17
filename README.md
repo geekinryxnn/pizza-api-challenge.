@@ -35,7 +35,7 @@ pizza-api-challenge.
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/geekinryxnn/pizza-api-challenge.
+    git clone "https://github.com/geekinryxnn/pizza-api-challenge."
     cd pizza-api-challenge.
     ```
 
