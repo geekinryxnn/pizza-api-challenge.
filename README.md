@@ -35,23 +35,14 @@ pizza-api-challenge.
 
 1. **Clone the repository:**
     ```bash
-    git clone <your-repo-url>
+    git clone https://github.com/geekinryxnn/pizza-api-challenge.
     cd pizza-api-challenge.
     ```
 
-2. **Create and activate a virtual environment:**
-    ```bash
-    python3 -m venv venv
-    source venv/bin/activate
-    ```
 
-3. **Install dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-4. **Set environment variables (optional):**
-    - Create a `.env` file in the root directory and add:
+    
+2. **Set environment variables (optional):**
+    - Create a `.pipenv` file in the root directory and add:
       ```
       FLASK_APP=server.app
       FLASK_ENV=development
